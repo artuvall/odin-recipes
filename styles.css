@@ -11,6 +11,21 @@ body {
     text-align: center;
 }
 
+a {
+    color: rgb(120, 0, 0);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.note {
+    font-size: medium;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+
 .container {
     max-width: 600px;
     margin: 0 auto 2rem;
@@ -31,23 +46,29 @@ body {
     padding: 0;
 }
 
+.front {
+    display: inline-block;
+    max-width: 300px;
+    width: 80%;
+    margin: auto 0;
+    padding: 10px 20px;
+    border: thick solid #520000;
+    background-color: rgb(255, 240, 213);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.front:hover {
+    background-color: #520000;
+}
+
+.front:hover a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
 .description {
     max-width: 600px;
     margin: 0 auto;
     text-align: justify;
     padding: 1rem;
 }
-
-a {
-    color: rgb(120, 0, 0);
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.note {
-    font-size: medium;
-}
-
-a:hover {
-    text-decoration: underline;
-  }
